@@ -10,6 +10,7 @@ $anonProps = @{
   "RootWeb.AllowAnonymousAccess" = $web.AllowAnonymousAccess
   "RootWeb.AnonymousState" = $web.AnonymousState
   "RootWeb.AnonymousPermMask64" = $web.AnonymousPermMask64
+  "RootWeb.HasUniqueRoleAssignments" = $web.HasUniqueRoleAssignments
 }
 
 $web.Dispose()
